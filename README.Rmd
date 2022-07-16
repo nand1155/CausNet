@@ -29,13 +29,6 @@ require("devtools")
 install_github("https://github.com/nand1155/CausNet")
 ```
 
-
-~You can install the released version of causnet from [CRAN](https://CRAN.R-project.org) with:~
-
-``` r
-install.packages("causnet")
-```
-
 ## Example
 
 ```{r}
