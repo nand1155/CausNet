@@ -19,10 +19,6 @@ require("devtools")
 install_github("https://github.com/nand1155/CausNet")
 ```
 
-``` r
-install.packages("causnet")
-```
-
 ## Example
 
 ``` r
@@ -33,9 +29,9 @@ mydata = simdat(300,5,1)
 # run Causnet
 links.s = sfun(mydata,  surdata=NULL, scoreFn = "bic", pheno = FALSE, fdr = FALSE, alpha = 0.6, alpha1 = NULL, alpha2 = NULL, pp = NULL, multBNs = TRUE)
 netplot_jm(links.s[[1]]) # if multBNs = TRUE
-#> IGRAPH f093b16 DN-- 5 4 -- 
+#> IGRAPH 727d4ec DN-- 5 4 -- 
 #> + attr: name (v/c)
-#> + edges from f093b16 (vertex names):
+#> + edges from 727d4ec (vertex names):
 #> [1] V4->V5 V3->V4 V2->V3 V1->V2
 ```
 

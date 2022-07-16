@@ -32,10 +32,6 @@ require("devtools")
 install_github("https://github.com/nand1155/CausNet")
 ```
 
-``` r
-install.packages("causnet")
-```
-
 ## Example
 
 ```{r}
