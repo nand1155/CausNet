@@ -13,12 +13,16 @@ knitr::opts_chunk$set(
 )
 ```
 
-# causnet
+
+# CausNet
+
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of causnet is to fond globally optimal Bayesian networks via dynamic programming with parent set constraints.
+
+The goal of CausNet is to find globally optimal Bayesian networks via dynamic programming with parent set constraints.
+
 
 ## Installation
 
@@ -32,7 +36,9 @@ install_github("https://github.com/nand1155/CausNet")
 ## Example
 
 ```{r}
-library(CausalNets)
+
+library(CausNet)
+
 
 # simulate data
 set.seed(1234)
